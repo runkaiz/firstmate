@@ -1,0 +1,32 @@
+viewer attached to fm-lab-readiness-gate-737356-12978 (pid 737466)
+{"client":{"version":"0.9.3","channel":"stable","protocol":22,"endpoint_protocol_generation":1,"endpoint_capabilities":["surface_interest","presentation_effects_fence","health_check"],"remote_host_bridge":true,"remote_bridge_idle_timeout":true,"binary":"/var/home/runkai/.local/bin/herdr","session":"fm-lab-readiness-gate-737356-12978"},"server":{"status":"running","running":true,"version":"0.9.3","protocol":22,"capabilities":{"live_handoff":true,"detached_server_daemon":false,"endpoint_protocol_generation":1,"surface_interest":true,"health_check":true,"ssh_agent_registration":true},"compatible":true,"endpoint_compatible":true,"socket":"/home/runkai/.config/herdr/sessions/fm-lab-readiness-gate-737356-12978/herdr.sock","session":"fm-lab-readiness-gate-737356-12978","restart_needed":false,"server_binary_stale":false},"update":{"restart_needed":false,"server_binary_stale":false}}
+COUNTERFACTUAL: direct one-shot command was consumed and did not execute
+RECOVERY: foreground program consumed 19 probes; preparation=prepared; elapsed=2s
+error: herdr shell fm-lab-readiness-gate-737356-12978:w2:p1 did not acknowledge readiness after 4 probes; refusing preparation
+NEVER READY: exit=1; allocation absent; elapsed=0s
+LATE PROBES: no allocation and no readiness-directory residue
+MISSING PANE: exit=1; allocation absent
+/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/home
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/home
+warning: herdr presentation parent is absent or ambiguous; using the ordinary flat layout without projection
+spawned ready-scout harness=sh kind=scout window=fm-lab-readiness-gate-737356-12978:w3:p2 worktree=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/pool/.treehouse/project-982c3a/1/project
+window=fm-lab-readiness-gate-737356-12978:w3:p2
+endpoint_task_id=ready-scout
+worktree=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/pool/.treehouse/project-982c3a/1/project
+project=/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/project
+harness=sh
+kind=scout
+tasktmp=/tmp/fm-ready-scout
+model=default
+effort=default
+spawn_gen=s1790988653.738821.11080
+backend=herdr
+herdr_session=fm-lab-readiness-gate-737356-12978
+herdr_workspace_id=w3
+herdr_tab_id=w3:t2
+herdr_pane_id=w3:p2
+WORKER CWD: /home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/pool/.treehouse/project-982c3a/1/project
+ISOLATION: git common-dir=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/project/.git, git-dir=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/project/.git/worktrees/project
+ALLOCATION SUBMISSIONS: 1
+FULL SPAWN: raw worker executed in isolated worktree after one allocation
+Guarded lab teardown result=0

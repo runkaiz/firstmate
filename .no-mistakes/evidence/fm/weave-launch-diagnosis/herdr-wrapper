@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -eu
+printf '%s\t' "$@" >> "$CALL_LOG"
+printf '\n' >> "$CALL_LOG"
+if [ "${1:-}" = --version ]; then
+  exec env PATH="$ORIGINAL_PATH" herdr --version
+fi
+args=("$@")
+last=$((${#args[@]}-1))
+flag=$((last-1))
+if [ "$flag" -ge 0 ] && [ "${args[$flag]}" = --session ] && [ "${args[$last]}" = "$LAB_SESSION" ]; then
+  unset 'args[last]' 'args[flag]'
+fi
+exec env PATH="$ORIGINAL_PATH" "$LAB_HELPER" run "$LAB_SESSION" "${args[@]}"

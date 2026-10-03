@@ -1,0 +1,48 @@
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+session	list	--json	--session	fm-lab-readiness-gate-737356-12978	
+workspace	list	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+workspace	list	--session	fm-lab-readiness-gate-737356-12978	
+workspace	create	--cwd	/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/project	--label	firstmate	--no-focus	--session	fm-lab-readiness-gate-737356-12978	
+tab	list	--workspace	w3	--session	fm-lab-readiness-gate-737356-12978	
+tab	create	--workspace	w3	--cwd	/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/project	--label	fm-ready-scout	--no-focus	--session	fm-lab-readiness-gate-737356-12978	
+tab	list	--workspace	w3	--session	fm-lab-readiness-gate-737356-12978	
+pane	list	--workspace	w3	--session	fm-lab-readiness-gate-737356-12978	
+agent	get	w3:p1	--session	fm-lab-readiness-gate-737356-12978	
+pane	close	w3:p1	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	run	w3:p2	test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.05GWNSuC' || : > '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.05GWNSuC/ready'	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	run	w3:p2	test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.05GWNSuC' || : > '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.05GWNSuC/ready'	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	run	w3:p2	treehouse get	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	get	w3:p2	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	get	w3:p2	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	get	w3:p2	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	run	w3:p2	cd -- '/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/pool/.treehouse/project-982c3a/1/project'	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	get	w3:p2	--session	fm-lab-readiness-gate-737356-12978	
+pane	get	w3:p2	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	read	w3:p2	--source	recent	--lines	200	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	read	w3:p2	--source	recent	--lines	200	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+agent	get	w3:p2	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	run	w3:p2	export GOTMPDIR=/tmp/fm-ready-scout/gotmp	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	run	w3:p2	export COMPACT_ADVISER_DISABLE=1	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	run	w3:p2	export FM_TASK_ID=ready-scout	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	send-text	w3:p2	. '/tmp/fm-ready-scout+1413ad409c731d28868405e70ae373b4bfb4954a5a78bf23a99e70d25e5a98a7/launch.s1790988653.738821.11080.sh'	--session	fm-lab-readiness-gate-737356-12978	
+status	--json	--session	fm-lab-readiness-gate-737356-12978	
+pane	send-keys	w3:p2	enter	--session	fm-lab-readiness-gate-737356-12978	

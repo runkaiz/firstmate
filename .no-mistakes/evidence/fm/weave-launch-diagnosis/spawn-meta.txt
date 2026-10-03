@@ -1,0 +1,15 @@
+window=fm-lab-readiness-gate-737356-12978:w3:p2
+endpoint_task_id=ready-scout
+worktree=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/pool/.treehouse/project-982c3a/1/project
+project=/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/project
+harness=sh
+kind=scout
+tasktmp=/tmp/fm-ready-scout
+model=default
+effort=default
+spawn_gen=s1790988653.738821.11080
+backend=herdr
+herdr_session=fm-lab-readiness-gate-737356-12978
+herdr_workspace_id=w3
+herdr_tab_id=w3:t2
+herdr_pane_id=w3:p2

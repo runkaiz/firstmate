@@ -1,0 +1,122 @@
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.czwkBwI4' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.czwkBwI4/ready
+'
+
+   Welcome to Bazzite 󰊴
+
+  󱋩  ghcr.io/ublue-os/bazzite-dx-nvidia:stable
+  󰟀  Boot Status: Healthy 󰄳
+
+    Command                                 │ Description
+  ───────────────────────────────────────────┼───────────────────────────────────────────
+    ujust --choose                           │ List all available commands
+    ujust toggle-user-motd                   │ Toggle this banner on/off
+    fastfetch                                │ View system information
+    brew help                                │ Manage command line packages
+
+  The  bazzite-rollback-helper  command can guide you for rolling back or rebasing to older
+  Bazzite buildsWant to install Decky Loader? There's a  ujust  command for that!  ujust
+  setup-decky install
+
+  •  Report an issue https://issues.bazzite.gg/
+  • 󰈙 Documentation https://docs.bazzite.gg/
+  • 󰙯 Discord https://discord.bazzite.gg/
+  •  Bluesky https://bluesky.bazzite.gg/
+
+runkai@griffin:/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD
+8/.test-phase-tmp/manual$ test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKC
+QS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.czwkBwI4' || : > '/home/runkai/
+.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-
+herdr-ready.czwkBwI4/ready'
+runkai@griffin:/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD
+8/.test-phase-tmp/manual$ touch '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M
+27TJCN10BH53WD8/.test-phase-tmp/manual/initial-ready'
+runkai@griffin:/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD
+8/.test-phase-tmp/manual$ python3 '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS
+3M27TJCN10BH53WD8/.test-phase-tmp/consume.py' '/home/runkai/.no-mistakes/worktrees/6b05071b95
+c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual' 2
+touch '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phas
+e-tmp/manual/old-one-shot'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-
+phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/.no-mistakes/worktrees/6b0
+5071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ/ready
+'
+runkai@griffin:/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD
+8/.test-phase-tmp/manual$ test ! -d '/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKC
+QS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-herdr-ready.ZFtXI3gQ' || : > '/home/runkai/
+.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/tmp/fm-
+herdr-ready.ZFtXI3gQ/ready'
+runkai@griffin:/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD
+8/.test-phase-tmp/manual$ printf 'prepared\n' >> '/home/runkai/.no-mistakes/worktrees/6b05071
+b95c8/01M3ZKCQS3M27TJCN10BH53WD8/.test-phase-tmp/manual/recovered'
+runkai@griffin:/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M3ZKCQS3M27TJCN10BH53WD
+8/.test-phase-tmp/manual$
