@@ -1,0 +1,61 @@
+CASE baseline: real tmux 100x30, real watcher + crew-state, home=/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/baseline; state: unknown · source: pane · harness state unavailable (unknown missing)
+TERMINAL baseline: 'idle tick 1\nbash-5.3$'
+WAKE baseline rc=0: 1791855388	1	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+DRAIN baseline:
+1791855388	1	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 730856.1791855388.Ipwdp0
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL baseline: 'idle tick 2\nbash-5.3$'
+WAKE baseline rc=0: 1791855391	2	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+DRAIN baseline:
+1791855391	2	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 2 --recovery-generation 733239.1791855391.AaQ80f
+WARNING: watcher still down (same stale episode; last beat: 0s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL baseline: 'idle tick 3\nbash-5.3$'
+WAKE baseline rc=0: 1791855394	3	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+DRAIN baseline:
+1791855394	3	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 3 --recovery-generation 735107.1791855394.xjyoWA
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+MEASURE baseline: 3 settled hashes -> 3 stale wake requests
+CASE target: real tmux 100x30, real watcher + crew-state, home=/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/target; state: unknown · source: pane · harness state unavailable (unknown missing)
+TERMINAL target: 'idle tick 1\nbash-5.3$'
+WAKE target rc=0: 1791855398	1	stale	fm-lab-alert:target	stale: fm-lab-alert:target
+DRAIN target:
+1791855398	1	stale	fm-lab-alert:target	stale: fm-lab-alert:target
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 737099.1791855398.fMgDJC
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL target: 'idle tick 2\nbash-5.3$'
+FAIL AssertionError('target no completed settled scan')
+Traceback (most recent call last):
+  File "/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/live.py", line 94, in <module>
+    for n in (2,3):c.silent(f'idle tick {n}')
+                   ~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/live.py", line 75, in silent
+    else:raise AssertionError(self.name+' no completed settled scan')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: target no completed settled scan

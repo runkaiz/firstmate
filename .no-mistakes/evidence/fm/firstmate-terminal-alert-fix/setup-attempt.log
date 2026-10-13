@@ -1,0 +1,400 @@
+CASE baseline: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/baseline; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL baseline: 'idle tick 1\nbash-5.3$'
+WAKE baseline rc=0: 1791855272	1	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+DRAIN baseline:
+1791855272	1	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 624938.1791855272.gGkyEw
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL baseline: 'idle tick 2\nbash-5.3$'
+WAKE baseline rc=0: 1791855275	2	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+DRAIN baseline:
+1791855275	2	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 2 --recovery-generation 628985.1791855275.mQCDIl
+WARNING: watcher still down (same stale episode; last beat: 0s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL baseline: 'idle tick 3\nbash-5.3$'
+WAKE baseline rc=0: 1791855278	3	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+DRAIN baseline:
+1791855278	3	stale	fm-lab-alert:baseline	stale: fm-lab-alert:baseline
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 3 --recovery-generation 632247.1791855278.VeBCKt
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+MEASURE baseline: 3 settled hashes -> 3 stale wake requests
+CASE target: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/target; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL target: 'idle tick 1\nbash-5.3$'
+WAKE target rc=0: 1791855282	1	stale	fm-lab-alert:target	stale: fm-lab-alert:target
+DRAIN target:
+1791855282	1	stale	fm-lab-alert:target	stale: fm-lab-alert:target
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 634362.1791855282.K7Own4
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL target: 'idle tick 2\nbash-5.3$'
+ABSORBED target: idle tick 2; settled_count=0; queue empty; watcher still running
+TERMINAL target: 'idle tick 3\nbash-5.3$'
+ABSORBED target: idle tick 3; settled_count=3; queue empty; watcher still running
+MEASURE target: 3 settled hashes -> 1 stale wake request; absorbed redraws did not advance cadence
+DRAIN target:
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 0 --recovery-generation 638411.1791855288.HR19L4
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+
+TERMINAL target: 'idle after cadence\nbash-5.3$'
+WAKE target rc=0: 1791855291	2	stale	fm-lab-alert:target	stale: fm-lab-alert:target
+DRAIN target:
+1791855291	2	stale	fm-lab-alert:target	stale: fm-lab-alert:target
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 2 --recovery-generation 646676.1791855291.iFAwVj
+WARNING: watcher still down (same stale episode; last beat: 0s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL target: 'idle replacement generation\nbash-5.3$'
+WAKE target rc=0: 1791855295	3	stale	fm-lab-alert:target	stale: fm-lab-alert:target
+DRAIN target:
+1791855295	3	stale	fm-lab-alert:target	stale: fm-lab-alert:target
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 3 --recovery-generation 649303.1791855295.mbkXtg
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL target: 'idle successor incarnation\nbash-5.3$'
+WAKE target rc=0: 1791855298	4	stale	fm-lab-alert:target	stale: fm-lab-alert:target
+DRAIN target:
+1791855298	4	stale	fm-lab-alert:target	stale: fm-lab-alert:target
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 4 --recovery-generation 651731.1791855298.hybYtr
+WARNING: watcher still down (same stale episode; last beat: 0s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+PASS target cadence, replacement generation, successor incarnation
+CASE target-away: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/target-away; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL target-away: 'idle tick 1\nbash-5.3$'
+WAKE target-away rc=0: 1791855302	1	stale	fm-lab-alert:target-away	stale: fm-lab-alert:target-away
+DRAIN target-away:
+1791855302	1	stale	fm-lab-alert:target-away	stale: fm-lab-alert:target-away
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 654076.1791855302.U55x0E
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  Away mode owns watcher supervision; load /afk and ensure the daemon is running instead of starting normal supervision directly.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL target-away: 'idle tick 2\nbash-5.3$'
+ABSORBED target-away: idle tick 2; settled_count=0; queue empty; watcher still running
+TERMINAL target-away: 'idle tick 3\nbash-5.3$'
+ABSORBED target-away: idle tick 3; settled_count=3; queue empty; watcher still running
+MEASURE target-away: 3 settled hashes -> 1 stale wake request; absorbed redraws did not advance cadence
+DRAIN target-away:
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 0 --recovery-generation 656540.1791855307.TpjLfc
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+
+TERMINAL target-away: 'idle after cadence\nbash-5.3$'
+WAKE target-away rc=0: 1791855311	2	stale	fm-lab-alert:target-away	stale: fm-lab-alert:target-away
+DRAIN target-away:
+1791855311	2	stale	fm-lab-alert:target-away	stale: fm-lab-alert:target-away
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 2 --recovery-generation 661277.1791855311.KnxP8M
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL target-away: 'idle replacement generation\nbash-5.3$'
+WAKE target-away rc=0: 1791855314	3	stale	fm-lab-alert:target-away	stale: fm-lab-alert:target-away
+DRAIN target-away:
+1791855314	3	stale	fm-lab-alert:target-away	stale: fm-lab-alert:target-away
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 3 --recovery-generation 666609.1791855314.tqF7g2
+WARNING: watcher still down (same stale episode; last beat: 0s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL target-away: 'idle successor incarnation\nbash-5.3$'
+WAKE target-away rc=0: 1791855317	4	stale	fm-lab-alert:target-away	stale: fm-lab-alert:target-away
+DRAIN target-away:
+1791855317	4	stale	fm-lab-alert:target-away	stale: fm-lab-alert:target-away
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 4 --recovery-generation 670235.1791855317.F1Gl4p
+WARNING: watcher still down (same stale episode; last beat: 0s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+PASS target-away cadence, replacement generation, successor incarnation
+CASE event-0-signal: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-0-signal; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL event-0-signal: 'old result\nbash-5.3$'
+WAKE event-0-signal rc=0: 1791855321	1	stale	fm-lab-alert:event-0-signal	stale: fm-lab-alert:event-0-signal
+DRAIN event-0-signal:
+1791855321	1	stale	fm-lab-alert:event-0-signal	stale: fm-lab-alert:event-0-signal
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 673871.1791855321.dybeF5
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL event-0-signal: 'new event done: second result\nbash-5.3$'
+WAKE event-0-signal rc=0: 1791855323	2	signal	worker.status	signal: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-0-signal/state/worker.status
+1791855323	3	signal	worker.status	signal: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-0-signal/state/worker.status
+DRAIN event-0-signal:
+1791855323	3	signal	worker.status	signal: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-0-signal/state/worker.status
+wake annotation: unread wake-EVENT since last drain, not current state: worker.status: done: preserved result
+wake annotation: latest wake-EVENT observed at drain, not current state: worker.status: done: second result
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: second result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 3 --recovery-generation 677865.1791855323.a4LwQr
+WARNING: watcher still down (same stale episode; last beat: 2s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+PASS signal preserves done: second result
+CASE event-0-stale: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-0-stale; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL event-0-stale: 'old result\nbash-5.3$'
+WAKE event-0-stale rc=0: 1791855326	1	stale	fm-lab-alert:event-0-stale	stale: fm-lab-alert:event-0-stale
+DRAIN event-0-stale:
+1791855326	1	stale	fm-lab-alert:event-0-stale	stale: fm-lab-alert:event-0-stale
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 680226.1791855326.GEesEz
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL event-0-stale: 'new event done: second result\nbash-5.3$'
+WAKE event-0-stale rc=0: 1791855330	2	stale	fm-lab-alert:event-0-stale	stale: fm-lab-alert:event-0-stale
+DRAIN event-0-stale:
+1791855330	2	stale	fm-lab-alert:event-0-stale	stale: fm-lab-alert:event-0-stale
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: second result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 2 --recovery-generation 682925.1791855330.jKKamm
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+PASS stale preserves done: second result
+CASE event-1-signal: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-1-signal; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL event-1-signal: 'old result\nbash-5.3$'
+WAKE event-1-signal rc=0: 1791855333	1	stale	fm-lab-alert:event-1-signal	stale: fm-lab-alert:event-1-signal
+DRAIN event-1-signal:
+1791855333	1	stale	fm-lab-alert:event-1-signal	stale: fm-lab-alert:event-1-signal
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 686580.1791855333.lnGnD5
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL event-1-signal: 'new event needs-decision [key=new]: choose release\nbash-5.3$'
+WAKE event-1-signal rc=0: 1791855335	2	signal	worker.status	needs-decision: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-1-signal/state/worker.status
+1791855335	3	signal	worker.status	needs-decision: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-1-signal/state/worker.status
+DRAIN event-1-signal:
+1791855335	3	signal	worker.status	needs-decision: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-1-signal/state/worker.status
+wake annotation: unread wake-EVENT since last drain, not current state: worker.status: done: preserved result
+wake annotation: latest wake-EVENT observed at drain, not current state: worker.status: needs-decision [key=new]: choose release
+OPEN DECISIONS (still open, folded from the durable status logs - not just the latest line):
+worker [key=new] needs-decision: choose release
+OPEN DECISIONS: close one by answering it: bin/fm-send.sh <task> --resolve-key <key> '<answer>'
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 3 --recovery-generation 690634.1791855335.3O4sOR
+WARNING: watcher still down (same stale episode; last beat: 2s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+PASS signal preserves needs-decision [key=new]: choose release
+CASE event-1-stale: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-1-stale; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL event-1-stale: 'old result\nbash-5.3$'
+WAKE event-1-stale rc=0: 1791855339	1	stale	fm-lab-alert:event-1-stale	stale: fm-lab-alert:event-1-stale
+DRAIN event-1-stale:
+1791855339	1	stale	fm-lab-alert:event-1-stale	stale: fm-lab-alert:event-1-stale
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 693379.1791855339.NmaoVY
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL event-1-stale: 'new event needs-decision [key=new]: choose release\nbash-5.3$'
+WAKE event-1-stale rc=0: 1791855342	2	stale	fm-lab-alert:event-1-stale	stale: fm-lab-alert:event-1-stale
+DRAIN event-1-stale:
+1791855342	2	stale	fm-lab-alert:event-1-stale	stale: fm-lab-alert:event-1-stale
+OPEN DECISIONS (still open, folded from the durable status logs - not just the latest line):
+worker [key=new] needs-decision: choose release
+OPEN DECISIONS: close one by answering it: bin/fm-send.sh <task> --resolve-key <key> '<answer>'
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 2 --recovery-generation 698024.1791855342.17oICB
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+PASS stale preserves needs-decision [key=new]: choose release
+CASE event-2-signal: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-2-signal; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL event-2-signal: 'old result\nbash-5.3$'
+WAKE event-2-signal rc=0: 1791855346	1	stale	fm-lab-alert:event-2-signal	stale: fm-lab-alert:event-2-signal
+DRAIN event-2-signal:
+1791855346	1	stale	fm-lab-alert:event-2-signal	stale: fm-lab-alert:event-2-signal
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 700230.1791855346.1YRFoS
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL event-2-signal: 'new event blocked [key=new]: release unavailable\nbash-5.3$'
+WAKE event-2-signal rc=0: 1791855348	2	signal	worker.status	signal: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-2-signal/state/worker.status
+1791855348	3	signal	worker.status	signal: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-2-signal/state/worker.status
+DRAIN event-2-signal:
+1791855348	3	signal	worker.status	signal: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-2-signal/state/worker.status
+wake annotation: unread wake-EVENT since last drain, not current state: worker.status: done: preserved result
+wake annotation: latest wake-EVENT observed at drain, not current state: worker.status: blocked [key=new]: release unavailable
+OPEN DECISIONS (still open, folded from the durable status logs - not just the latest line):
+worker [key=new] blocked: release unavailable
+OPEN DECISIONS: close one by answering it: bin/fm-send.sh <task> --resolve-key <key> '<answer>'
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 3 --recovery-generation 702826.1791855348.HTPcuR
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+PASS signal preserves blocked [key=new]: release unavailable
+CASE event-2-stale: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-2-stale; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL event-2-stale: 'old result\nbash-5.3$'
+WAKE event-2-stale rc=0: 1791855351	1	stale	fm-lab-alert:event-2-stale	stale: fm-lab-alert:event-2-stale
+DRAIN event-2-stale:
+1791855351	1	stale	fm-lab-alert:event-2-stale	stale: fm-lab-alert:event-2-stale
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 704539.1791855351.NpMbs4
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL event-2-stale: 'new event blocked [key=new]: release unavailable\nbash-5.3$'
+WAKE event-2-stale rc=0: 1791855355	2	stale	fm-lab-alert:event-2-stale	stale: fm-lab-alert:event-2-stale
+DRAIN event-2-stale:
+1791855355	2	stale	fm-lab-alert:event-2-stale	stale: fm-lab-alert:event-2-stale
+OPEN DECISIONS (still open, folded from the durable status logs - not just the latest line):
+worker [key=new] blocked: release unavailable
+OPEN DECISIONS: close one by answering it: bin/fm-send.sh <task> --resolve-key <key> '<answer>'
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 2 --recovery-generation 707188.1791855355.0yG9mA
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+PASS stale preserves blocked [key=new]: release unavailable
+CASE event-3-signal: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-3-signal; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL event-3-signal: 'old result\nbash-5.3$'
+WAKE event-3-signal rc=0: 1791855358	1	stale	fm-lab-alert:event-3-signal	stale: fm-lab-alert:event-3-signal
+DRAIN event-3-signal:
+1791855358	1	stale	fm-lab-alert:event-3-signal	stale: fm-lab-alert:event-3-signal
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 710492.1791855358.PjVT2m
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 0s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL event-3-signal: 'new event failed: new validation failure\nbash-5.3$'
+WAKE event-3-signal rc=0: 1791855360	2	signal	worker.status	signal: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-3-signal/state/worker.status
+1791855360	3	signal	worker.status	signal: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-3-signal/state/worker.status
+DRAIN event-3-signal:
+1791855360	3	signal	worker.status	signal: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-3-signal/state/worker.status
+wake annotation: unread wake-EVENT since last drain, not current state: worker.status: done: preserved result
+wake annotation: latest wake-EVENT observed at drain, not current state: worker.status: failed: new validation failure
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker failed: new validation failure
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 3 --recovery-generation 714182.1791855360.qDJoi6
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+PASS signal preserves failed: new validation failure
+CASE event-3-stale: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-3-stale; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL event-3-stale: 'old result\nbash-5.3$'
+WAKE event-3-stale rc=0: 1791855364	1	stale	fm-lab-alert:event-3-stale	stale: fm-lab-alert:event-3-stale
+DRAIN event-3-stale:
+1791855364	1	stale	fm-lab-alert:event-3-stale	stale: fm-lab-alert:event-3-stale
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 717823.1791855364.IpGf6B
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+TERMINAL event-3-stale: 'new event failed: new validation failure\nbash-5.3$'
+WAKE event-3-stale rc=0: 1791855367	2	stale	fm-lab-alert:event-3-stale	stale: fm-lab-alert:event-3-stale
+DRAIN event-3-stale:
+1791855367	2	stale	fm-lab-alert:event-3-stale	stale: fm-lab-alert:event-3-stale
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker failed: new validation failure
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 2 --recovery-generation 720437.1791855367.xwBCzz
+WARNING: watcher still down (same stale episode; last beat: 1s ago, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+PASS stale preserves failed: new validation failure
+CASE queue-retry: real tmux 100x30, real watcher + crew-state, home=/var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/queue-retry; state: unknown · source: none · worktree gone (torn down?)
+TERMINAL queue-retry: 'first result\nbash-5.3$'
+QUEUE REFUSAL exit=1; no delivery throttle created
+TERMINAL queue-retry: 'retry result\nbash-5.3$'
+WAKE queue-retry rc=0: 1791855373	2	stale	fm-lab-alert:queue-retry	stale: fm-lab-alert:queue-retry
+DRAIN queue-retry:
+1791855373	2	stale	fm-lab-alert:queue-retry	stale: fm-lab-alert:queue-retry
+STATUS OUTCOME BACKSTOP (newest captain-facing task event has no covering branch outcome):
+worker done: preserved result
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 2 --recovery-generation 724139.1791855373.58j9vI
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 1s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+
+PASS all live checks; no LLM calls made; counts measure wake requests only

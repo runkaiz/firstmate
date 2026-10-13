@@ -1,0 +1,4 @@
+stale: fm-lab-alert:event-2-signal
+signal: /var/home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-2-signal/state/worker.status
+stale: fm-lab-alert:event-2-signal
+signal: /home/runkai/.no-mistakes/worktrees/6b05071b95c8/01M4SDZYSXHY7YZWBA8DQSEBZ1/.lv/event-2-signal/state/worker.status
